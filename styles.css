@@ -25,6 +25,7 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Gta';
 }
 
+
 img {
     width: 100%;
     height: auto;
@@ -176,6 +177,7 @@ main {
     overflow: clip;
 }
 
+
 .jl2 {
     position: sticky;
     top: 0;
@@ -240,20 +242,31 @@ main {
     object-fit: cover;
 
     opacity: 0;
-}
-
-.white {
-    transition: opacity .5s ease-in-out;
+    
 }
 
 .purple {
-    transition: opacity 5s ease-in-out;
+    transform: translateX(-.5rem);
+    scale: 1.2;
 }
 
-.is-active {
+.animate {
+    transition: opacity 4s ease-in-out;
+}
+
+.show-logo {
     opacity: 1;
 }
 
+.release {
+    position: absolute;
+
+    bottom: 23vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+}
 
 .footer {
     text-align: center;

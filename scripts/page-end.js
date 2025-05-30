@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
 
             if (entry.isIntersecting) {
-                white.classList.add('is-active');
-                purple.classList.add('is-active');
+                white.classList.add('show-logo', 'animate');
+                purple.classList.add('show-logo', 'animate');
             }
             else {
-                white.classList.remove('is-active');
-                purple.classList.remove('is-active');
+                white.classList.remove('show-logo', 'animate');
+                purple.classList.remove('show-logo', 'animate');
             }
 
         })
