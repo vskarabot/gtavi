@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const countdown = document.getElementById('countdown');
 
     const getDifferences = () => {
-        const release = new Date('2026-5-26');
+        const release = new Date('2026-11-29');
         const today = new Date();
         
         let diff = (release - today) / 1000;
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (diff <= 0) {
             clearInterval(interval, 1000);
             countdown.style.fontSize = '2rem';
-            countdown.textContent = "Now wait for YouTube streams"
+            countdown.textContent = "The game is live."
         }
         
         else {

@@ -51,7 +51,6 @@ body {
     object-fit: cover;
 
     animation: scroll-out linear;
-    animation-range: exit;
     animation-timeline: scroll();
 }
 
@@ -158,7 +157,7 @@ main {
     object-position: top;
 
     animation: raul-grow ease-in forwards;
-    animation-range: enter;
+    animation-range: entry;
     animation-timeline: view();
 }
 
@@ -188,7 +187,7 @@ main {
     scale: 1.4;
 
     animation: scale-out-back ease-in forwards;
-    animation-range: enter;
+    animation-range: entry;
     animation-timeline: view();
 }
 
@@ -222,7 +221,6 @@ main {
     filter: opacity(0);
 
     animation: scale-out ease-out forwards;
-    animation-range: enter;
     animation-timeline: scroll();
 }
 
