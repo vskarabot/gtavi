@@ -1,0 +1,31 @@
+/*
+    Kept separate from styles.css on purpose.
+
+    The scroll-timeline polyfill re-fetches every same-origin stylesheet it can
+    transpile and re-serves it from a blob: URL. Relative url()s inside a blob
+    stylesheet no longer resolve against the site, so the @font-face sources
+    would 404 in any browser that needs the polyfill (Firefox).
+
+    This file contains nothing the polyfill rewrites, so it is left alone and
+    the relative font paths keep working.
+*/
+@font-face {
+    font-family: 'GtaBold';
+    src: url('fonts/GTAArtDeco-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GtaBC';
+    src: url('fonts/GTAArtDeco-Condensed-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GtaM';
+    src: url('fonts/GTAArtDeco-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gta';
+    src: url('fonts/GTAArtDeco-Regular.ttf') format('truetype');
+    font-display: swap;
+}

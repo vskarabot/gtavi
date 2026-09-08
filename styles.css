@@ -1,20 +1,4 @@
-@font-face {
-    font-family: 'GtaBold';
-    src: url('fonts/GTAArtDeco-Bold.ttf');
-}
-@font-face {
-    font-family: 'GtaBC';
-    src: url('fonts/GTAArtDeco-Condensed-Bold.ttf');
-}
-@font-face {
-    font-family: 'GtaM';
-    src: url('fonts/GTAArtDeco-Medium.ttf');
-}
-@font-face {
-    font-family: 'Gta';
-    src: url('fonts/GTAArtDeco-Regular.ttf');
-}
-
+/* @font-face lives in fonts.css - see the note there */
 
 * {
     margin: 0;
