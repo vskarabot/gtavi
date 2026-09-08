@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grand Theft Auto VI</title>
 
+    <script>
+        if (!CSS.supports('animation-timeline', 'scroll()')) {
+            document.write('<script src="scripts/scroll-timeline.js"><\/script>');
+        }
+    </script>
+
     <link href="styles.css" rel="stylesheet">
 
     <script src="scripts/counter.js"></script>
