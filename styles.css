@@ -7,6 +7,14 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Gta';
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 img {
     width: 100%;
@@ -23,6 +31,32 @@ body {
     justify-content: center;
 
     background-color: pink;
+}
+
+.info {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    width: max-content;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    background:
+        linear-gradient(#353C5E, purple) padding-box,
+        linear-gradient(to bottom right, white, #FB84D0, #353C5E) border-box;
+
+    text-align: start;
+    padding: .5rem 1rem;
+
+    color: white;
+    font-family: 'Gta';
+
+    z-index: 1;
+}
+
+.info a {
+    color: pink;
+    text-decoration-color: #FB84D0;
 }
 
 .cover {
